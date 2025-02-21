@@ -9,30 +9,45 @@ body {
 
 .wrapper {
     width: 1200px;
-    display: flex;
+    display:flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
 }
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+.logo {
+    position:absolute;
+    top: 1px;
+    left: 1px;
+
+    }
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: #3fd4d6;
+    padding: 150px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #3fd4d6;
     min-height: 150px;
+    display: flex;
+    height: 100vh;
+   
 }
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgba(77,163,164,255);
+    min-height: 100px;
+
+}
+fieldset {
+    border-radius: 30px;
+    border-color: grey;
 }
